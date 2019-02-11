@@ -8,11 +8,13 @@ The client and server should be run in separate terminals.
 To compile the client and server, do the following:
 
 javac PingServer.java
+
 javac PingClient.java
 
 To run the client and server, do the following:
 
 java PingServer [port]
+
 java PingClient [host] [port] [password]
 
 Port is the port number the server listens on, host is the name of the computer the server is running on, and the password is a string that will be added to ping requests so that the server only replies to valid pings.
